@@ -1,0 +1,31 @@
+请求连接：命令格式：			#AND:CON,<序列号>,<终端号>,<用户名>,<密码>,<联接码>\n
+									#AND:CON,123,123,admin,123456,111111
+STR 打印字符串：命令格式：		#TRP:STR,<序列号>,<对齐方式>,<字符串内容 >\n
+									#TRP:STR,123,left,helloworld
+BMP 打印位图：命令格式：		#TRP:BMP,<序列号>,<位图名称>\n
+									#TRP:BMP,123,bitmap
+SLI 打印单横线：命令格式：		#TRP:SLI,<序列号>\n	
+									#TRP:SLI,123		
+DLI 打印双横线 ：命令格式：		#TRP:DLI,<序列号>\n
+									#TRP:DLI,123
+BEG 开始打单 ：命令格式：		#TRP:BEG,<单号>,<模板名称>,<终端号>,<工号>,<表单行数>,<流水号>\n
+									#TRP:BEG,20130402,default,123,00001,1,5555
+REC 表单行记录：命令格式：		#TRP:REC,<单号>,<行号>,<名称>,<规格>,<数量>,<单价>,<金额>,<折扣>\n
+									#TRP:REC,20130402,1,milk,big,4,3,12,0
+ END 打单结束	：命令格式：		#TRP:END,<单号>,<流水号>,<应收>,<实付>,<找零>,<税金>\n
+ 									#TRP:END,20130402,5555,12,50,38
+COD 取得编码 	：命令格式：		#BSC:COD,<序列号>,<终端号>,<单号>\n
+									#BSC:COD,123,123,20130402
+BYE 退出联线 	：命令格式：		#BSC:BYE,<序列号>,<终端号>,<单号>\n
+									#BSC:BYE,123,123,20130402 																																								
+培训学校
+
+#TRP:STR,123,left,helloworld培训学校云POS系统11正式上线
+#TRP:STR,123,left,helloworld57F98BAD5B6668214E91POS7CFB7EDF116B635F0F4E0A7EBF;
+
+#AND:CON,123,123,admin,123456,111111*
+#TRP:STR,123,left,helloworld*
+#TRP:BEG,20130402,default,123,00001,1,5555*
+#TRP:REC,20130402,1,milk,big,4,3,12,0*
+#TRP:END,20130402,5555,12,50,38*
+

@@ -1,3 +1,4 @@
+hello version 3.0
 Cloud Pos System is a project that use Android devices as points and backstage to build a pos system.
 This system uses the ipad/Android as desk point of sales (POS) . 
 And control the printers and scanners through the Android device devices, 

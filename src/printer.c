@@ -1,4 +1,9 @@
-
+/*******************************************************************************
+*Author:   mahonesun
+*E-mail:   vipszp@vip.qq.com
+*Add:      https://github.com/mahonesun/CloudPosSystem
+*Version:  v1.0
+*******************************************************************************/
 #include "../inc/interface.h"
 
 

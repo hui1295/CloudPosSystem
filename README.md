@@ -1,3 +1,8 @@
+Author:   mahonesun
+E-mail:   vipszp@vip.qq.com
+Add:      https://github.com/mahonesun/CloudPosSystem
+Version:  v1.0
+
 Cloud Pos System is a project that use Android/ipad devices as points and backstage to build a pos system.
 This system uses the ipad/Android as desk point of sales (POS) . 
 And control the printers and scanners through the Android device devices, 
